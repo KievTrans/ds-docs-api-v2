@@ -2,7 +2,7 @@
 
 $api_key = 'Your API-key';
 
-$api_url = 'https://api.dshield.co/v1.1/payment';
+$api_url = 'https://api.dshield.co/v2/payment';
 
 // Prepare the data
 $data = array(

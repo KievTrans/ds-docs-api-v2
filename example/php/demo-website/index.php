@@ -8,7 +8,7 @@ if (isset($_POST['pay']))
     $dbFile = 'data.json';
 
     // Set API URL
-    $apiUrl = 'https://api.dshield.co/v1.1/payment';
+    $apiUrl = 'https://api.dshield.co/v2/payment';
 
     // Set API key
     $apiKey = 'YOUR_API_KEY_HERE';

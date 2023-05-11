@@ -134,7 +134,7 @@ The method allows you to get additional information on the transaction and check
 
 ### Request
 
-`GET https://api.dshield.co/v1.1/transaction?id={transaction_id}`
+`GET https://api.dshield.co/v2/transaction?id={transaction_id}`
 
 | Element  | Description |
 | ------------- | ------------- |
@@ -179,7 +179,7 @@ The method allows you to get a list of all recent transactions.
 
 ### Request
 
-`GET httsp://api.dshield.co/v1.1/transactions`
+`GET httsp://api.dshield.co/v2/transactions`
 
 | Element  | Description |
 | ------------- | ------------- |
@@ -190,9 +190,9 @@ The method allows you to get a list of all recent transactions.
 Example:
 
 ```
-GET httsp://api.dshield.co/v1.1/transactions?start_date=2022-01-01&end_date=2022-01-30&status=success
-GET httsp://api.dshield.co/v1.1/transactions?start_date=2022-01-01&end_date=2022-01-30
-GET httsp://api.dshield.co/v1.1/transactions?status=chargeback
+GET httsp://api.dshield.co/v2/transactions?start_date=2022-01-01&end_date=2022-01-30&status=success
+GET httsp://api.dshield.co/v2/transactions?start_date=2022-01-01&end_date=2022-01-30
+GET httsp://api.dshield.co/v2/transactions?status=chargeback
 ```
 
 ### Response
@@ -221,7 +221,7 @@ The response contains an array of transaction objects, the same as for the previ
 
 ## Country Codes
 
-`GET https://api.dshield.co/v1.1/countries`
+`GET https://api.dshield.co/v2/countries`
 
 The method allows you to get a list of all supported country codes.
 
@@ -238,7 +238,7 @@ If you have any questions or concerns, please contact our support team at admin@
 ### 1.1 (2023-04-29)
 
 - Added `client_private_name` and `client_family_name` parameters to the `payment` method.
-- Changed endpoint URL to `https://api.dshield.co/v1.1/`.
+- Changed endpoint URL to `https://api.dshield.co/v2/`.
 
 ### 2023-05-03
 
