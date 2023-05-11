@@ -238,7 +238,7 @@ If you have any questions or concerns, please contact our support team at admin@
 ### 1.1 (2023-04-29)
 
 - Added `client_private_name` and `client_family_name` parameters to the `payment` method.
-- Changed endpoint URL to `https://api.dshield.co/v2/`.
+- Changed endpoint URL to `https://api.dshield.co/v1.1/`.
 
 ### 2023-05-03
 
