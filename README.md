@@ -239,6 +239,24 @@ If you have any questions or concerns, please contact our support team at admin@
 
 ---
 
+## Frequently Asked Questions 
+
+### What body format should I choose when making requests to the API using Postman?
+
+When making requests to our API using Postman, please ensure that you select the 'form-data' option in the Body tab. 
+
+### What currencies are available for use with the API?
+
+Our API supports the following currencies:
+
+- USD
+- EUR
+- GBP
+
+Customers can pay with their local currencies, and their banks will automatically convert the amount to one of the supported currencies for transactions made through our API.
+
+---
+
 ## Changelog
 
 ### 1.1 (2023-04-29)
