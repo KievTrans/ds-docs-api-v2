@@ -30,6 +30,12 @@ Response body example for a failed request:
 }
 ```
 
+If you use something other than PHP on the backend, when making a request to the API, specify the following header: 
+
+```
+Content-Type: multipart/form-data
+```
+
 ## Create a payment link
 
 `POST https://api.dshield.co/v2/payment`
